@@ -1,0 +1,13 @@
+{
+    "name": "Core",
+    "require": {
+        "phpunit/phpunit": "^8.5"
+    },
+    "autoload": {
+        "files": ["core/CoreGame.php"],
+        "psr-4": {
+            "Core\\": "core/"
+        }
+
+    }
+}
